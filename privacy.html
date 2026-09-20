@@ -22,7 +22,7 @@
   <main class="shell">
     <article class="legal">
       <h1>Privacy Policy</h1>
-      <div class="meta">Last updated: September 15, 2026</div>
+      <div class="meta">Last updated: September 20, 2026</div>
 
       <div class="notice">
         This policy is written to apply across multiple apps. Individual apps may use different device permissions or features.
@@ -35,7 +35,28 @@
         It explains how information may be handled when you use our apps or contact support.
       </p>
 
-      <h2>2. Information you provide</h2>
+      <h2>2. Sultonov Files / FileHub-specific handling</h2>
+      <p>
+        Sultonov Files is designed as a local-first file manager. Files that you import, scan, edit, index, play, archive, or store
+        in the Private Vault are processed on the device unless you explicitly choose a feature that communicates with another device
+        or server.
+      </p>
+      <p>
+        WebDAV, SMB, and SFTP connections are made directly from your device to the server you configure. Saved connection secrets are
+        stored using Apple Keychain APIs where the app offers credential saving. File transfer and synchronization content is not routed
+        through a Sultonov Apps backend.
+      </p>
+      <p>
+        Wi-Fi Transfer starts a temporary local-network server only when you enable that feature. The transfer is intended for devices
+        on the same trusted local network and stops when the app goes into the background. The built-in browser and Download by Link
+        contact the websites or HTTPS addresses you choose.
+      </p>
+      <p>
+        On-device search may index file names, tags, PDF text, and OCR text in local application storage so that you can search your own
+        library. Private Vault access can use Face ID, Touch ID, or the device passcode through Apple device-owner authentication.
+      </p>
+
+      <h2>3. Information you provide</h2>
       <p>
         If you contact us by email, we receive the information you choose to provide, such as your email address, the app name,
         device information, screenshots, and the content of your support request. We use this information only to respond to your request,
